@@ -14,11 +14,12 @@ RC Garage is part of the BenchTools collection. It runs from one HTML file with 
 
 - A configurable 1/10-scale-style 4WD electric short-course truck.
 - Brushless motor, ESC, LiPo battery, gearing, tire, and suspension options.
-- Calculated top-speed, gear-ratio, mass, power, cost, and runtime estimates.
-- Canvas-based oval test track with packed dirt, loose dirt, clay, asphalt, and grass profiles.
+- Derived top-speed, gear-ratio, mass, power, cost, and runtime estimates.
+- Canvas-based oval track with packed dirt, loose dirt, clay, asphalt, and grass profiles.
 - Keyboard and touch controls, acceleration, braking/reverse, steering, boundary contact, lap timing, and chase/trackside camera modes.
 - Live speed, battery voltage sag estimate, current estimate, and motor/ESC temperature models.
-- Recent telemetry chart, browser-local configuration persistence, and JSON build export.
+- Recent telemetry chart and active setup analysis.
+- Save named configurations locally, compare a saved setup with the active build, import validated JSON exports, and export a portable setup.
 - Five body finishes and a responsive workshop interface.
 
 ## Engineering notes
@@ -27,16 +28,16 @@ This is an interactive prototype, not a validated digital twin or professional R
 
 The driving model uses simplified vehicle dynamics and a fixed physics timestep. The garage uses scalable SVG artwork; the driving view is rendered locally on Canvas. The project intentionally avoids external libraries and assets to keep direct-file use reliable.
 
+## Persistence and portability
+
+The current configuration and saved build library use this browser's localStorage. Saved data does not synchronize across devices. Export a JSON file to keep a portable copy. The import workflow checks that all catalog selections are recognized before applying a configuration.
+
 ## Roadmap
 
 1. Foundation: garage, editable parts catalog, connected performance estimates, and first playable track prototype.
-2. Engineering workflow: named configurations, import/export validation, setup comparisons, repeatable test summaries, and stronger telemetry.
+2. Engineering workflow: named configurations, validated import/export, build-to-build comparisons, and telemetry.
 3. Simulation refinement: improve grip and slip behavior, checkpoint timing, suspension response, and repeatable acceleration/braking tests.
 4. Polish: more track layouts, better component details, more setup metadata, accessibility checks, and performance tuning.
-
-## Privacy and storage
-
-Automatic build persistence uses this browser's localStorage. Data is local to the browser and does not synchronize across devices. JSON export provides a portable copy. If local storage is blocked, component editing and simulation still work during the current session.
 
 ## License
 

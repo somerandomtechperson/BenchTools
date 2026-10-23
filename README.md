@@ -9,9 +9,9 @@ A collection of practical calculators and interactive tools for electronics, RC 
 
 ## RC Garage
 
-RC Garage is a browser-only project with inline HTML, CSS, and JavaScript. No framework, build tools, backend, external assets, or account are required. The prototype includes a live parts configuration, estimated gearing and powertrain metrics, an oval test track, keyboard driving, surface profiles, telemetry, and build export.
+RC Garage is a browser-only project with inline HTML, CSS, and JavaScript. No framework, build tools, backend, external assets, or account are required. It includes a live parts configurator, derived gearing and powertrain estimates, an oval driving simulation, keyboard controls, surface profiles, telemetry, named local builds, setup comparisons, and JSON import/export.
 
-Open the RC Garage project in a published Pages site, or download the rc-garage/index.html file and open it directly.
+Open the RC Garage project in a published Pages site, or download the rc-garage/index.html file and open it directly. Browser-saved builds do not automatically synchronize across devices.
 
 Performance figures are engineering estimates for exploration, not verified claims about a real RC vehicle.
 

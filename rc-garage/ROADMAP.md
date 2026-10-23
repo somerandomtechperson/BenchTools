@@ -2,25 +2,26 @@
 
 ## Pull request 1 — Foundation and first playable prototype
 
-- [x] Create a dedicated rc-garage project directory in BenchTools.
-- [x] Add a responsive workshop interface and custom SVG vehicle illustration.
-- [x] Add editable motor, ESC, battery, gearing, tire, and suspension catalog.
-- [x] Connect component choices to calculated setup metrics.
-- [x] Add the Canvas oval track, keyboard/touch controls, surface profiles, and basic vehicle dynamics.
-- [x] Add live instrumentation, simulated temperature estimates, lap timing, browser-local configuration persistence, and JSON export.
+- [x] Dedicated rc-garage project directory in BenchTools.
+- [x] Responsive workshop interface and custom SVG short-course truck illustration.
+- [x] Editable motor, ESC, battery, gearing, tire, and suspension catalog.
+- [x] Component-driven estimates for the main setup metrics.
+- [x] Canvas oval track, keyboard/touch controls, surface profiles, and basic vehicle dynamics.
+- [x] Live instrumentation, simulated temperature estimates, lap timing, local configuration persistence, and JSON export.
 
-## Pull request 2 — Engineering lab and setup workflow
+## Pull request 2 — Saved build library and comparisons
 
-- [ ] Validate JSON imports and make exported builds portable.
-- [ ] Add named configurations, a saved-build list, and build-to-build comparison.
-- [ ] Record structured test runs with setup snapshots.
-- [ ] Improve telemetry chart scaling and lap/result summaries.
-- [ ] Add compatibility notices and explanatory calculation details.
-- [ ] Add repeatable acceleration and braking test workflows.
+- [x] Save named configurations locally in the browser.
+- [x] Load and delete named setups.
+- [x] Compare active and saved setup metrics side by side.
+- [x] Import JSON setup files with catalog-ID and shell-color validation.
+- [x] Keep JSON exports portable and document browser-local storage limitations.
 
 ## Later milestones
 
-- Improve slip and tire-force response and add more robust checkpoint timing.
+- Add structured test-run history with setup snapshots and lap-result summaries.
+- Add repeatable acceleration and braking tests.
+- Improve tire slip response and add more robust checkpoint timing.
 - Add more layouts, surface-specific visuals, and setup presets.
 - Improve detailed vehicle artwork and display additional installed-component changes.
 - Add calculation and import/export tests.
