@@ -11,12 +11,12 @@
 
 ## Pull request 2 — Engineering lab and setup workflow
 
-- [ ] Validate JSON imports and make exported builds portable.
-- [ ] Add named configurations, a saved-build list, and build-to-build comparison.
-- [ ] Record structured test runs with setup snapshots.
-- [ ] Improve telemetry chart scaling and lap/result summaries.
-- [ ] Add compatibility notices and explanatory calculation details.
-- [ ] Add repeatable acceleration and braking test workflows.
+- [X] Validate JSON imports and make exported builds portable.
+- [X] Add named configurations, a saved-build list, and build-to-build comparison.
+- [X] Record structured test runs with setup snapshots.
+- [X] Improve telemetry chart scaling and lap/result summaries.
+- [X] Add compatibility notices and explanatory calculation details.
+- [X] Add repeatable acceleration and braking test workflows.
 
 ## Later milestones
 
