@@ -1,22 +1,30 @@
 # BenchTools
-A collection of practical calculators for electronics, RC projects, and tinkering. - Voltage, current, resistance, and power calculator. - Resistor color-code decoder. - Battery voltage and capacity calculations. - Gear ratios, wheel speed, and motor RPM calculations. - Unit conversions and saved calculations.
 
-**What's included**
-- Ohm's Law: Calculate voltage, current, resistance, and power.
-- Battery Calculator: Estimate LiPo pack voltage, energy, and runtime.
-- RC Gearing: Calculate gear ratios, wheel RPM, and theoretical speed.
-- Unit Converter: Convert length, mass, temperature, speed, pressure, torque, power, and energy.
-- LED Resistor Calculator: Calculate resistance, select a standard resistor value, and estimate power dissipation.
-- Resistor Decoder: Decode four-band and five-band resistor color codes.
-Also included:
-- Light and dark themes following your system preference.
-- Responsive layout for desktop and mobile.
-- Searchable tools and interactive circuit/resistor diagrams.
-- Saved calculations using browser storage.
-- Text and CSV export.
-- No external libraries or account required.
-# How to use it
-1. Download the HTML file above.
-2. Open it in a browser.
-3. Choose a calculator from the sidebar and enter your values.
-4. Save results or export them when needed.
+A collection of practical calculators and interactive tools for electronics, RC projects, and tinkering.
+
+## Tools
+
+- **[RC Garage](./rc-garage/)** — build, tune, and test a short-course RC truck in a standalone workshop configurator and driving simulation.
+- **BenchTools v1** — Ohm's Law, battery estimates, RC gearing, LED resistor selection, resistor decoding, and unit conversions. Open the benchtools_v1.html file in a browser.
+
+## RC Garage
+
+RC Garage is a browser-only project with inline HTML, CSS, and JavaScript. No framework, build tools, backend, external assets, or account are required. The prototype includes a live parts configuration, estimated gearing and powertrain metrics, an oval test track, keyboard driving, surface profiles, telemetry, and build export.
+
+Open the RC Garage project in a published Pages site, or download the rc-garage/index.html file and open it directly.
+
+Performance figures are engineering estimates for exploration, not verified claims about a real RC vehicle.
+
+## BenchTools features
+
+- Ohm's Law calculator
+- Battery voltage, capacity, and runtime estimates
+- RC gearing and theoretical wheel-speed calculations
+- LED resistor selection and dissipation estimate
+- Four-band and five-band resistor color decoding
+- Unit conversion, saved calculations, and exports
+- Responsive layout and system theme support
+
+## How to use
+
+Download a standalone HTML file above and open it in a modern browser. No installation required.
